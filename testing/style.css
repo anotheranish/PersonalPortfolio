@@ -83,7 +83,7 @@ body{
     position: relative;
 }
 
-.back-video{
+/*.back-video{
     position: absolute;
     right: 0;
     bottom: 0;
@@ -101,7 +101,7 @@ body{
         width: auto;
         height: 100%;
     }
-}
+}*/
 /* ----- NAVIGATION BAR ----- */
 nav{
     position: fixed;
@@ -115,6 +115,15 @@ nav{
     transition: .3s;
     z-index: 100;
 }
+#darkicon{
+    width: 30px ;
+    height:30px;
+    
+    
+    cursor: pointer;
+}
+
+
 .nav-logo{
    position: relative;
 }
